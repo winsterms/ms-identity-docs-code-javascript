@@ -10,7 +10,7 @@ const app = require('./server.js');
 
 jest.dontMock('fs');
 
-const html = fs.readFileSync(path.resolve(__dirname, './App/index.html'), 'utf8');
+const html = fs.readFileSync(path.resolve(__dirname, './public/index.html'), 'utf8');
 
 describe('Sanitize index page', () => {
     beforeAll(async() => {
