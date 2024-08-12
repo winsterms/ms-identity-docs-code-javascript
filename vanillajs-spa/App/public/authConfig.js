@@ -6,7 +6,7 @@
 const msalConfig = {
     auth: {
 
-        clientId: "9882dad2-93e9-4f36-bab7-44f3760c4569", // This is the ONLY mandatory field that you need to supply
+        clientId: "bb2a2e3a-c5e7-4f0a-88e0-8e01fd3fc1f4", // This is the ONLY mandatory field that you need to supply
         // WORKFORCE TENANT
         authority: "https://ciamext.ciamlogin.com/ciamext.onmicrosoft.com", //  Replace the placeholder with your tenant info
         // EXTERNAL TENANT
