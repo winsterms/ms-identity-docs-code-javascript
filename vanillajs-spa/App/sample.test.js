@@ -13,11 +13,11 @@ jest.dontMock('fs');
 const html = fs.readFileSync(path.resolve(__dirname, './public/index.html'), 'utf8');
 
 describe('Sanitize index page', () => {
-    beforeAll(async() => {
+    /**beforeAll(async() => {
         global.document.documentElement.innerHTML = html.toString();
     });
 
-    /**it('should have valid cdn link', () => {
+    it('should have valid cdn link', () => {
         expect(document.getElementById("load-msal").getAttribute("src")).toContain("https://alcdn.msauth.net/browser");
     });*/
 });
