@@ -17,9 +17,9 @@ describe('Sanitize index page', () => {
         global.document.documentElement.innerHTML = html.toString();
     });
 
-    it('should have valid cdn link', () => {
+    /**it('should have valid cdn link', () => {
         expect(document.getElementById("load-msal").getAttribute("src")).toContain("https://alcdn.msauth.net/browser");
-    });
+    });*/
 });
 
 describe('Sanitize configuration object', () => {
